@@ -15,7 +15,8 @@
     "scripts": {
         "start": "node server.js",
         "dev": "nodemon server.js",
-        "lint": "eslint . --ext .js"
+        "lint": "eslint . --ext .js",
+        "build": "npm i && node server.js"
     },
     "devDependencies": {
         "eslint": "^8.15.0",
