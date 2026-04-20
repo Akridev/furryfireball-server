@@ -109,3 +109,6 @@ requests.rest
 
 # split query file
 storage.js
+
+# unnecessary file extensions
+.bat
