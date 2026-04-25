@@ -1,4 +1,4 @@
-// require('dotenv').config();
+if(process.env.VERCEL_ENV != 'production') require('dotenv').config();
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const pool = require('./database_connection'); //db
